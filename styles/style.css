@@ -424,3 +424,103 @@
       #34e89e 100%
     );
 }
+.texts h3{
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    width: 824px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 127.273% */
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+.texts p{
+    width: 760px;
+    color: var(--1, #1F2428);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 180% */
+}
+/* the end texts part over */
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+.location{
+    
+    padding: 35px 46px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.location-div{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.lokatsiya{
+    width: 246px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #222;
+}
+.lokatsiya h3{
+    color: var(--2, #222);
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+}
+.location-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.location-flex div{
+    display: flex;
+    gap: 9px;
+    align-items:center
+}
+.location a{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    width: 240px;
+    padding-top: 24px ;
+    padding-bottom: 19px ;
+    border-radius: 36px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    transition: all 0.5s ease-in-out;
+    background-size:200% auto;
+}
+.location a:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  
+    background-image: linear-gradient(
+      to right,
+      #34e89e 0%,
+      #0f3443 51%,
+      #34e89e 100%
+    );
+}
+
+/* the end location part over */
+.delivery-option-title h3{
+color: var(--1, #1F2428);
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 155.556% */
+}
